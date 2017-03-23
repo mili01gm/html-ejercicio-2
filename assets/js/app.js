@@ -14,8 +14,8 @@ var datos = document.getElementById('datos')
 } */
 
 datos.innerHTML="";
-alumnas.forEach(function(e){
-  datos.innerHTML += "<ul>" + "<li>" + "Nombre: " + e.nombre + "</li>" +
-                              "<li>" + "Apellido: " + e.apellido+ "</li>" +
-                              "<li>" + "Rol: " + e.rol+ "</li>" +
-                              "<li>" + "Cumpleaños: " + e.cumple + "</li>" + "</ul>"})
+  alumnas.forEach(function(e){
+    datos.innerHTML += "<ul>" + "<li>" + "Nombre: " + e.nombre + "</li>" +
+                                "<li>" + "Apellido: " + e.apellido+ "</li>" +
+                                "<li>" + "Rol: " + e.rol+ "</li>" +
+                                "<li>" + "Cumpleaños: " + e.cumpleanios + "</li>" + "</ul>"})
